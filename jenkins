@@ -25,3 +25,4 @@ node {
     stage("Push Image to Docker Hub"){
         sh 'docker push  rahulwagh17/jhooq-docker-demo:jhooq-docker-demo'
     }
+}
